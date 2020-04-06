@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tuckahoe Cooking Club</title>
+    <link rel="stylesheet" href="events.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>$(document).ready(function(){
+        $("a").hover(function(){
+          $(this).css("background-color", "lightgrey");
+        }, function(){
+        $(this).css("background-color", "#AEEEEE");
+         });
+      });</script>
+  </head>
+  <body>
+    <section>
+      <div class="nav_bar">
+        <img src="ClubLogo.png" alt="Logo" id= "logo">
+        <a href="Home.html" class="Buttons">Home</a>
+        <a href="Recipes.html" class="Buttons">Recipes</a>
+        <a href="TipsAndTricks.html" class="Buttons" id=TAndT>Tips and Tricks</a>
+        <a href="ClubOfficers.html" class="Buttons" id= clubOfficers>Club Officers</a>
+        <a href="Events.html" class="Buttons">Events</a>
+      </div>
+      <h1 id = "title">Events</h1>
+      <h1 id = "month">December</h1>
+      <div class = "calendar">
+        <div id = "dates">
+        <ul>
+          <li>December 3rd</li>
+          <li>December 5th</li>
+          <li>December 10th</li>
+          <li>December 13th</li>
+          <li>December 17th</li>
+          <li>December 21th</li>
+        </ul>
+        </div>
+
+        <div id = "events">
+          <ul>
+            <li>Meeting in Room 42</li>
+            <li>Field Trip to VCU</li>
+            <li>Meeting in Room 42</li>
+            <li>Pot luck in Room 42</li>
+            <li>Meeting in Room 42</li>
+            <li>Meeting in Room 42<span>(Optional)</span></li>
+          </ul>
+       </div>
+
+      </div>
+      
+    </section>
+  </body>
+</html>

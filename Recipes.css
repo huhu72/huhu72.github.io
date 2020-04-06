@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,700&display=swap');
+html{
+  background-color: #F08080;
+  height: 2000px;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+div {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 1%;
+  text-align: center;
+  min-height: 200px;
+}
+.Buttons {
+  background-color: #AEEEEE;
+  color: white;
+  border-radius: 21px;
+  padding-top: 15px;
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 18px;
+  width: 138px;
+  height: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+
+#logo{
+  float: left;
+  height: 180px;
+  width: 180px;
+}
+#title{
+    text-align: Center;
+    margin: -5% 300px;
+    font-weight: 100;
+    font-size: 45px;
+}
+.recipe{
+    height:700px;
+    margin-top:6%;
+
+}
+.recipe-left img{
+    padding-left: 5%;
+   height: 200px;
+   align-content: center;
+}
+.recipe-left{
+    width:50%;
+    float: left;
+  
+}
+.ingredients-left{
+    width: 50%;
+    float: left;
+  
+}
+.recipe-left ul{
+    list-style-type:none;
+    font-size: 25px;
+}
+
+.recipe-instructions{
+    width: 50%;
+    clear:right;
+    float:right;
+    height: 500px;
+
+}
+.recipe-instructions ul{
+    margin-top:-1%;
+    list-style-type: decimal;
+    text-align: left;
+    font-size: 30px;
+}
+.online-recipes{
+    height:700px;
+    margin-top:6%;
+}
+
